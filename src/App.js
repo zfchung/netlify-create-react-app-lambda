@@ -40,14 +40,35 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-            <br />
-            Welcome to Zack's Tech Learning Journal.
-          </p>
-          <LambdaDemo />
+          <h1>Zack's Learning Journal.</h1>
+          <p>by Chung ZF (Zack)</p>
         </header>
+        <main className="App-main">
+          <article>
+            <h2>1st August 2021</h2>
+            <p>
+              Started using Netlify to bootstrap a React page. Using this
+              website to journal my tech learning journey.
+            </p>
+            <p>
+              Using Netlify save the effort to maintain an webhost by myself.
+              Meaning, no need to maintain any infrastructure. It comes with
+              Lambda functions. Best of all, it's free.
+            </p>
+            <p>
+              This website design is still very basic, have a few plans in mind
+              to revamp the design. More to come.
+            </p>
+          </article>
+        </main>
+        <footer className="App-footer">
+          <li>
+            <a href="https://linkedin.com/in/zchung1">LinkedIn</a>
+          </li>
+          <li>
+            <a href="https://github.com/zfchung">GitHub</a>
+          </li>
+        </footer>
       </div>
     );
   }

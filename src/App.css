@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,4 +29,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-main {
+  display: inline-block;
+  min-height: 40vh;
+}
+
+.App-footer {
+  display: flex;
+  min-height: 10vh;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  background-color: #282c34;
+  color: white;
+}
+
+.App-footer li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+.App-footer a {
+  text-decoration: none;
+}
+
+.App-footer a:visited {
+  color: white;
 }
