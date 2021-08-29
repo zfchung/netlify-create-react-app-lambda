@@ -2,8 +2,12 @@
   text-align: center;
 }
 
-.App-margin {
+.App-padding {
   padding: 0 10%;
+}
+
+.App-date {
+  color: grey;
 }
 
 .App-header {

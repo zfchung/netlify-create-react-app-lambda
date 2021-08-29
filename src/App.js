@@ -38,13 +38,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header App-margin">
+        <header className="App-header App-padding">
           <h1>Zack's Learning Journal.</h1>
           <p>by Chung ZF (Zack)</p>
         </header>
-        <main className="App-main App-margin">
+        <main className="App-main App-padding">
           <article>
-            <h2>1st August 2021</h2>
+            <h2>Set up plain static site using Netlify Create React App</h2>
+            <p className="App-date">1st August 2021</p>
             <p>
               Started using Netlify to bootstrap a React page. Using this
               website to journal my tech learning journey.
@@ -60,7 +61,7 @@ class App extends Component {
             </p>
           </article>
         </main>
-        <footer className="App-footer App-margin">
+        <footer className="App-footer App-padding">
           <li>
             <a href="https://linkedin.com/in/zchung1">LinkedIn</a>
           </li>
