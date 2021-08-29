@@ -38,11 +38,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        <header className="App-header App-margin">
           <h1>Zack's Learning Journal.</h1>
           <p>by Chung ZF (Zack)</p>
         </header>
-        <main className="App-main">
+        <main className="App-main App-margin">
           <article>
             <h2>1st August 2021</h2>
             <p>
@@ -60,7 +60,7 @@ class App extends Component {
             </p>
           </article>
         </main>
-        <footer className="App-footer">
+        <footer className="App-footer App-margin">
           <li>
             <a href="https://linkedin.com/in/zchung1">LinkedIn</a>
           </li>
