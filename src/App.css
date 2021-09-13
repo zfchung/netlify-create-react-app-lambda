@@ -54,3 +54,8 @@
 .App-footer a:visited {
   color: white;
 }
+
+img {
+  height: auto;
+  max-width: 100%;
+}
