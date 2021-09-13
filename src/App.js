@@ -49,9 +49,59 @@ class App extends Component {
             <p className="App-date">13th September 2021</p>
             <p>
               Taking notes from Corey Haines'{" "}
-              <i>Understanding 4 Rules of Simple Design</i>
+              <i>Understanding 4 Rules of Simple Design.</i>
             </p>
             <img src={mindmap} alt=""></img>
+            <h3>Good Design -{">"} Better Design</h3>
+            <p>Two constants in software development</p>
+            <ul>
+              <li>Things are going to change</li>
+              <li>We don't know what exactly is going to change</li>
+            </ul>
+            <p>A simple design is one that is easy to change.</p>
+            <p>
+              A concrete statement "This is going to change in the future, so it
+              is worth my investment right now." But, as the old saying goes,
+              "We'll never be more ignorant than we are at this moment." Rather
+              than planning for change points, we build systems, by applying
+              simple design principles, that can change easily at ANY point.
+            </p>
+            <h3>The 4 Rules</h3>
+            <ol>
+              <li>Test Passes</li>
+              <li>Expresses Intent</li>
+              <li>No Duplication (DRY)</li>
+              <li>Small</li>
+              <ul>
+                <li>
+                  After applying above rules, look back and make sure we do not
+                  have any extraneuous pieces
+                </li>
+                <li>
+                  Anything that doesn't serve the prior three rules should be
+                  removed
+                </li>
+              </ul>
+            </ol>
+            <ul>
+              <li>
+                The order between rule #2 and #3 are unimportant as they often
+                iterate over each other.
+              </li>
+              <li>
+                Additional Reading:{" "}
+                <a href="https://martinfowler.com/bliki/BeckDesignRules.html">
+                  BeckDesignRules bliki by Martin Fowler
+                </a>
+              </li>
+              <li>
+                Footnote from above bliki: "In the rare case they are in
+                conflict (in tests are the only examples I can recall), empathy
+                wins over some strictly technical metric." - it reminds us that
+                when writing code we should always be thinking of the reader
+              </li>
+            </ul>
+            <p></p>
           </article>
           <hr />
           <article>
@@ -62,6 +112,7 @@ class App extends Component {
               <a href="https://www.youtube.com/watch?v=J18mLs-SRpI">
                 JavaScript Refactoring Masterclass with Chris Powers
               </a>
+              .
             </p>
             <h3>What is Refactoring?</h3>
             <ul>
